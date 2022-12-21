@@ -1,3 +1,12 @@
+import express from 'express';
+import rest from './rest.js';
+
+const PORT = 8022;
+const app = express();
+
 export default () => {
-  console.log('REST 01\n');
+  app.use(rest);
+  app.listen(PORT, () => {
+    console.log(`rest01 listening on port ${PORT}...`);
+  });
 };
