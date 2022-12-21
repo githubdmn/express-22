@@ -1,0 +1,33 @@
+{
+  "name": "express-22",
+  "version": "1.0.0",
+  "description": "expressjs various code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubdmn/express-22.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubdmn/express-22/issues"
+  },
+  "homepage": "https://github.com/githubdmn/express-22#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
